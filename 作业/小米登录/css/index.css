@@ -1,0 +1,174 @@
+*{margin: 0;padding: 0;}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 1130px;
+}
+.logo img{
+    float: left;
+    background:#F56600; 
+    margin-right: 20px;
+}
+.logo a{
+    overflow: hidden;
+    display: block;
+    height: 100px;
+    width: 230px;
+    line-height: 27px;
+}
+.logo a p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo a span{
+    font-size: 9px;
+}
+.content{
+    background: url(../images/banner.png);
+    width: 100%;
+    background-position-x: -253px;
+    height: 590px;
+    margin-top: -15px;
+}
+.login{
+    width: 400px;
+    height: 525px;
+    background: white;
+    left: 870px;
+    top: 30px;
+}
+.login-top>span:nth-of-type(1){
+    font-size: 23px;
+    color: #F56600;
+    left: 64px;
+    top: 32px;
+}
+.login-top>span:nth-of-type(3){
+    font-size: 23px;
+    left: 244px;
+    top: 32px;
+}
+.cut{
+    font-size: 23px;
+    color: #E0E0E0;
+    left: 200px;
+    top: 32px;
+}
+.login-top input{
+    width: 330px;
+    height: 50px;
+    font-size: 15px;
+}
+.login-top input:first-of-type{
+    left: 33px;
+    top: 93px;
+}
+.login-top input:nth-of-type(2){
+    left: 33px;
+    top: 157px;
+}
+.login-top button{
+    width: 340px;
+    height: 50px;
+    background: #F56600;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    border: none;
+    top: 230px;
+    left: 33px;
+}
+.login-top div span{
+    font-size: 13px;
+    color:#999999;
+}
+.login-top div{
+    text-align: center;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.login-bottom>a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #666666;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 37px;
+}
+.login-bottom>a:first-of-type{
+    margin-left: 49px;
+}
+
+.login-bottom>a>span{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background: url("../images/icons_type.png") no-repeat center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -9px;
+}
+.login-bottom a:nth-of-type(1) span{
+    background-position-x: -19px;
+}
+.login-bottom a:nth-of-type(2) span{
+    background-position-x: -38px;
+}
+.login-bottom a:nth-of-type(3) span{
+    background-position-x: -59px;
+}
+.login-bottom a:nth-of-type(4) span{
+    background-position-x: -85px;
+}
+.login-bottom{
+    top:432px;
+    text-align: center;
+    width: 350px;
+    margin-left: 33px;
+}
+.about{
+    text-align: center;
+    margin-top: 134px;
+    line-height: 40px;
+    color: #757575;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+}
+fieldset, img {
+    border: 0;
+}
+.oth_type_tit {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+.login-top>input{
+    padding-left: 10px;
+}
+
